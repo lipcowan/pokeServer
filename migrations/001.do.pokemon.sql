@@ -5,5 +5,5 @@ CREATE TABLE IF NOT EXISTS pokemon (
     species TEXT NOT NULL,
     photo TEXT NOT NULL,
     about TEXT NOT NULL,
-    price INTEGER NOT NULL
+    price NUMERIC(14, 2) NOT NULL
 );

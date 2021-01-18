@@ -26,3 +26,4 @@ at https://pokemonprices.com/
 
 Images are coming from the bastionbot
 https://pokeres.bastionbot.org/images/pokemon/{pokedexnumber}.png
+

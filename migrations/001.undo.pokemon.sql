@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS pokemon;
+DROP TABLE pokemon;

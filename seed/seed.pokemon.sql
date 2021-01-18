@@ -1,7 +1,3 @@
-BEGIN;
-
-TRUNCATE pokemon;
-
 INSERT INTO pokemon
     (dex, species, photo, about, price)
 Values
@@ -26,12 +22,10 @@ Values
     ('019', 'Rattata', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png', 'Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.', 0.15),
     ('020', 'Raticate', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png', 'Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.', 2.04),
     ('021', 'Spearow', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png', 'Inept at flying high. However, it can fly around very fast to protect its territory.', 1.73),
-    ('022', 'Fearow', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png', 'A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.' 2.46),
+    ('022', 'Fearow', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png', 'A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.', 2.46),
     ('023', 'Ekans', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png', 'The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.', 2.26),
     ('024', 'Arbok', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png', 'The frightening patterns on its belly have been studied. Six variations have been confirmed.', 10.55),
     ('025', 'Pikachu', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png', 'Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.', 2.08),
     ('026', 'Raichu', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png', 'Its long tail serves as a ground to protect itself from its own high-voltage power.', 9.95),
     ('027', 'Sandshrew', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png', 'It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.', 4.02),
     ('028', 'Sandslash', 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png', 'The drier the area Sandslash lives in, the harder and smoother the Pokémon’s spikes will feel when touched.', 7.77);
-
-COMMIT;
